@@ -18,14 +18,14 @@ function App() {
 
   return (
     <div className="App">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <a class="navbar-brand" href="/"> URL Favorites </a>
             <div class="navbar-nav">
               <a class="nav-item nav-link" href="/"> Home </a>
               <a class="nav-item nav-link" href="/display"> Favorites </a>
               <a class="nav-item nav-link" href="/search"> Search </a>
-            </div>
-            <a class="nav-item nav-link" href="/login">Login</a>
+              <a class="nav-item nav-link" href="/login">Login</a>
+            </div>           
         </nav>
         
       <BrowserRouter>

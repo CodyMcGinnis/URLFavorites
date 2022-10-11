@@ -2,7 +2,7 @@ const UserController = require("../controllers/user.controller");
 
 module.exports = (app)=>{
     app.post("/api/users", UserController.createUser);
-    app.post("/api/login/:email&:password", UserController.signin);
+    app.post("/api/login/:email&:password", UserController.signin); //want to get this functional for portfolio
     app.get("/api/users", UserController.displayAllUsers);
     app.get("/api/users/:id", UserController.displayUser);
     app.put("/api/users/:id", UserController.updateUser);
